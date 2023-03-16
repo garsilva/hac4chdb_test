@@ -1,0 +1,26 @@
+<h1>"signup page"</h1>
+<h2>{{error}}</h2>
+<form action="/pubartmonitor/signup" method="post">
+{% csrf_token %}
+	<label for="">Username</label>
+	<input type="text" id="username" name="username" Required><p>
+
+	<label for="">First name</label>
+	<input type="text" id="fname" name="fname" Required><p>
+
+	<label for="">Last name</label>
+	<input type="text" id="lname" name="lname" Required><p>
+
+	<label for="">Email</label>
+	<input type="text" id="email" name="email" Required><p>
+
+	<label for="">Password</label>
+	<input type="password" id="password" name="password" Required><p>
+
+	<label for="">Confirm Password</label>
+	<input type="password" id="cpassword" name="cpassword" Required><p>
+
+	<button type="submit">Sign Up</button><p>
+</form>
+
+<script src="" async defer></script>

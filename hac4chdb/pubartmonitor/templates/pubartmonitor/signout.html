@@ -1,0 +1,8 @@
+<h2>Hello {{user}}, do you really want to log out?</h2>
+<form action="/pubartmonitor/signout" method="post">
+{% csrf_token %}
+	<input type="submit" value="yes" name="bt">
+	<input type="submit" value="no" name="bt">
+<form>
+
+<script src="" async defer></script>
